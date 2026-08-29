@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+echo "Checking Node.js toolchain..."
+node --version
+npm --version
+echo "Setup complete."

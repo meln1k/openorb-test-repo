@@ -1,0 +1,7 @@
+services:
+  web:
+    command: npm start
+    port: 3000
+    health: /
+    portal:
+      title: Hello world
